@@ -9,7 +9,10 @@
  */
 
 
- // Start coding...
+ // Prevent file from being loaded directly
+ if ( ! defined( 'WPINC' ) ) {
+ 	die( 'Sorry. No sufficient permissions.' );
+ }
 
 
  ?>
